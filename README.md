@@ -1,5 +1,6 @@
 # Pacman
 Semestrální projekt v C++
+
 Předmět: Programování a algoritmizace 2, LS 2016/17, FIT ČVUT Praha
 
 Zadání:
