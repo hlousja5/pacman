@@ -1,0 +1,24 @@
+Implementujte klasickou hru Pacman proti počítači (můžete naimplementovat i jiné varianty).
+
+Hra musí splňovat následující funkcionality:
+
+    Dodržování základních pravidel, sbírání bonusů, míncí (teček), třešniček, teleporty, atp.
+    Je implementováno několik druhů AI duchů (fungující i zároveň - např. duchove se liší barvou, znakem).
+    Lze načítat mapy ze souboru (bludiště + pozice bonusů a duchů).
+    Konfigurovatelná a škálovaná obtížnost.
+
+Kde lze využít polymorfismus? (doporučené)
+
+    Rozdělení hráčů: hráč, duch (různé druhy umělé inteligence)
+    Mód hry: klasický (duchové chodí dle svých strategií), zběsilý (duchové pronásledují hráče), nezranitelný (duchové jsou pomalejší, dají se zabít)
+    Herní políčko: zem, stěna, bod, bonus (změna módu), třešnička (více bodů), teleport
+    Uživatelské rozhraní: konzole, ncurses, SDL, OpenGL (různé varianty), ...
+
+Další informace
+
+    Obecné informace, požadavky, ...
+    https://cs.wikipedia.org/wiki/Pac-Man
+    http://programujte.com/clanek/2011010500-chovani-duchu-ve-hre-pac-man-cast-1/
+    http://programujte.com/clanek/2011010500-chovani-duchu-ve-hre-pac-man-cast-2/
+    Mail: D. Bernhauer
+
